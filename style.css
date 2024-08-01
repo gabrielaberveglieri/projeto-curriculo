@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7f7f7;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+
+#container-image{
+    background-image: url(images/Image\ Side.png); 
+    background-size:cover;
+    height: 250px;
+}
+
+.menu-icon{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.menu-icon img {
+    width: 24px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 250px;
+    margin-top: 0px;
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.containerx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.section{    
+    width: 80%;
+    padding: 50px; 
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.foto img{
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform 0.5 ease, filter 0.5s ease;
+}
+
+.foto img:hover {
+    transform: scale(1.05);
+}
+
+.icons-redes img{
+    width: 40px;
+}
+
+.icons-redes {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#nome {
+    margin-top: 30px;
+    color: #f7f7f7;
+    padding-bottom: 80px;
+    font-size: 25px;
+}
+
+#titulo-experiencia {
+    color: #0069FF;
+    font-size: 20px ;
+    margin-top: 10px;
+}
+
+#titulo-experienciadois {
+    color: #0069FF;
+    font-size: 20px;
+}
+
+.formacao {
+    margin-top: 10px;
+}
+
+.foto {
+    margin-top: -120px;
+    position: absolute;    
+}
+
+.content {
+    margin-top: -180px;
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.experiencia {
+    margin-bottom: 40px;
+}
+
+.formacao {
+    margin-bottom: 40px;
+}
+
+.cursos {
+    margin-bottom: 40px;
+}
+
+.idioma {
+    margin-bottom: 80px;
+}
+
+.icons-redes a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 2s ease;
+}
+
+.icons-redes a img {
+    width: 40px;
+    height: auto;
+}
+
+.icons-redes a:hover img {
+    transform: scale(1.3);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin-left: 0;
+    font-size: 14px;
+    background-color: #7c7b7b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
